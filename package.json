@@ -5,13 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --runInBand",
-    "start": "nodemon index.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/landonconover/RESTAPIAssign.git"
   },
-  "author": "Landon Conover <landon.conover@gmail.com> (https://github.com/landonconover)",
+  "author": "Coby Yates <cobylyates@gmail.com> (https://github.com/cobyyates)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/UVU-DigitalMedia/DGM3780RestAPIAssignment/issues"
