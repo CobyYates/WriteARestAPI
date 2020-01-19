@@ -29,8 +29,14 @@ app.get("/api/data", (req, res) => {
   res.end(JSON.stringify(myObj));
 });
 
-
-
+app.post("/api/data", (req, res) => {
+    res.writeHead(200, { "Content-Type": "application/json" });
+    let myObj = {
+      make: "Lamborghini",
+      model: "Aventador"
+    };
+    res.end(JSON.stringify(myObj));
+  });
 
 //export app for the tests
 module.exports = app;
